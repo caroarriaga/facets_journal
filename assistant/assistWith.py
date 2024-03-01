@@ -33,7 +33,7 @@ gratefulness = client.beta.assistants.create(
     Here's how you should react to each scenario
     Scenario 1
     Give me a comforting message and ask in a different way. If you tried to comfort me two times and still get negative answers, then ask if I'd like to do this activity another time.
-    If I want to do it later, respond only with ""Your entry has been saved to your journal."
+    If I want to do it later, respond **only** with "Your entry has been saved to your journal." and nothing else.
     
     Scenario 2
     After inquiring about the thing I am expressing gratitude for, ask if I want to add more things.
