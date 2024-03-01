@@ -1,5 +1,5 @@
 from assistant import assistWith
-from chat_survey import client
+from chat_journal import client
 
 # Helper functions
 def submit_message(assistant_id, thread, user_message):

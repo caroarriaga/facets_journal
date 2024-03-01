@@ -14,7 +14,7 @@ values = client.beta.assistants.create(
     Wait for my reply and ask a follow up question to keep the conversation going. Be concise. Do not explain your answers.
     After collecting at least six responses from me, ask me to summarize what I said I value. 
     If the summary doesn't include most of the things we discussed: ask me to write a better version. Provide hints of things I might missed.
-    If the summary includes most of the things we discussed: ask if I would like to save it into a journal entry. If my answer is positive, then respond only with "Your values have been saved to your journal." 
+    If the summary includes most of the things we discussed: ask if I would like to save it into a journal entry. If my answer is positive, then respond only with "Your entry has been saved to your journal."
     """,
     # tools = [{"type": "retrieval"}],
     model = "gpt-3.5-turbo"
@@ -29,7 +29,7 @@ gratefulness = client.beta.assistants.create(
     If haven't shared any single thing that I am grateful for, give me a comforting message and ask in a different way. If you tried two times and still get negative answers, then ask if I'd like to do this activity another time.
     After collecting at least four responses from me, ask me to summarize what I said I'm grateful for today. 
     If the summary doesn't include most of the things we discussed: ask me to write a better version. Provide hints of things I might missed.
-    If the summary includes most of the things we discussed OR I want to continue the activity another time: ask if I would like to save it into a journal entry. If my answer is positive, then respond only with "Your values have been saved to your journal." 
+    If the summary includes most of the things we discussed OR I want to continue the activity another time: ask if I would like to save it into a journal entry. If my answer is positive, then respond only with "Your entry has been saved to your journal."
     """,
     # tools = [{"type": "retrieval"}],
     model = "gpt-3.5-turbo"
@@ -43,7 +43,7 @@ reflection = client.beta.assistants.create(
     Wait for my reply and ask a follow up question to keep the conversation going. Be concise. Do not explain your answers.
     After collecting at least four responses from me, ask me to summarize what happened, my commitment for next time, and how will I feel if I follow my commitment. 
     If the summary doesn't include most of the things we discussed: ask me to write a better version. Provide hints of things I might missed.
-    If the summary includes most of the things we discussed: ask if I would like to save it into a journal entry. If my answer is positive, respond only with "Your values have been saved to your journal." 
+    If the summary includes most of the things we discussed: ask if I would like to save it into a journal entry. If my answer is positive, respond only with "Your entry has been saved to your journal." 
     """,
     # tools = [{"type": "retrieval"}],
     model = "gpt-3.5-turbo"
